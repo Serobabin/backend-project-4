@@ -11,7 +11,8 @@ program
   .argument('<url>')
   .option('-o, --output [dir]', 'output dir', currentDir)
   .action((url, options) => {
-    console.log(pageLoader(url, options.output));
+    pageLoader(url, options.output)
+      .then((filepath) => console.log(`Page was successfully downloaded into ${filepath}`));
   });
 
 program.parse();
