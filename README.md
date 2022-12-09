@@ -6,3 +6,7 @@
 
 
 PageLoader — is a command line utility that downloads pages from the Internet and saves them to your computer. Together with the page, it downloads all the resources (pictures, styles and js) making it possible to open the page without the Internet.
+
+## Launch and demo of page-loader
+
+ [![asciicast](https://asciinema.org/a/0twbyt9Ldo3byQ7PIK4dCA8sP.svg)](https://asciinema.org/a/0twbyt9Ldo3byQ7PIK4dCA8sP)
